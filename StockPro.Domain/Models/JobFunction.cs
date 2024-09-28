@@ -1,0 +1,15 @@
+﻿namespace StockPro.Domain.Models
+{
+    public class JobFunction : BaseEntity
+    {
+        public string Name { get; set; } = string.Empty;
+
+        public string? Description { get; set; }
+
+        public decimal HourlyRate { get; set; }
+
+        public int TechnicalId { get; set; }
+
+        public Technical Technical { get; set; } = new();
+    }
+}

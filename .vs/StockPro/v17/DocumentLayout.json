@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\Projeto\\StockPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\stockprodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\stockprodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|d:\\dev\\projeto\\stockpro\\stockpro.domain\\models\\serviceordertechnical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|solutionrelative:stockpro.domain\\models\\serviceordertechnical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|d:\\dev\\projeto\\stockpro\\stockpro.domain\\models\\workhours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|solutionrelative:stockpro.domain\\models\\workhours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\serviceordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\serviceordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkHours.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Models\\WorkHours.cs",
+              "RelativeDocumentMoniker": "StockPro.Domain\\Models\\WorkHours.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Models\\WorkHours.cs",
+              "RelativeToolTip": "StockPro.Domain\\Models\\WorkHours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:20:19.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceOrderTechnical.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Models\\ServiceOrderTechnical.cs",
+              "RelativeDocumentMoniker": "StockPro.Domain\\Models\\ServiceOrderTechnical.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Models\\ServiceOrderTechnical.cs",
+              "RelativeToolTip": "StockPro.Domain\\Models\\ServiceOrderTechnical.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T21:55:36.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceOrderMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T21:45:39.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockProDataContext.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\StockProDataContext.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\StockProDataContext.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\StockProDataContext.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\StockProDataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:22:41.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
