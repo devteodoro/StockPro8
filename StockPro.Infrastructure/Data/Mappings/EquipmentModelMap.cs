@@ -31,20 +31,20 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.Description)
                 .IsRequired()
                 .HasColumnName("Description")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.Brand)
                 .HasColumnName("Brand")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100)
                 .IsRequired(false);
 
@@ -98,7 +98,7 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.TechnicalDocumentation)
                 .HasColumnName("TechnicalDocumentation")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(500)
                 .IsRequired(false);
 

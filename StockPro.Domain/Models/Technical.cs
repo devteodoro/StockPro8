@@ -11,5 +11,7 @@
         public string Email { get; set; } = string.Empty;
 
         public JobFunction? Function { get; set; }
+
+        public ICollection<ServiceOrderTechnical>? ServiceOrderTechnicals { get; set; }
     }
 }

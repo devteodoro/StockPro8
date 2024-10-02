@@ -10,6 +10,8 @@
 
         public int TechnicalId { get; set; }
 
-        public Technical Technical { get; set; } = new();
+        public Technical? Technical { get; set; }
+
+        public ICollection<ServiceOrderTechnical>? ServiceOrderTechnicals { get; set; }
     }
 }

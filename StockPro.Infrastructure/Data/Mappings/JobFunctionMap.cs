@@ -31,14 +31,14 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.Description)
                 .IsRequired(false)
                 .HasColumnName("Description")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(255);
 
             builder
@@ -52,6 +52,13 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .HasOne(j => j.Technical)
                 .WithOne(t => t.Function)
+                .OnDelete(DeleteBehavior.NoAction)
+                .IsRequired(false);
+
+            builder
+                .HasMany(j => j.ServiceOrderTechnicals)
+                .WithOne(sot => sot.Function)
+                .HasForeignKey(sot => sot.FunctionId)
                 .OnDelete(DeleteBehavior.NoAction)
                 .IsRequired(false);
         }

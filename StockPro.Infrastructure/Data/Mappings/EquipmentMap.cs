@@ -28,27 +28,27 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.TAG)
                 .HasColumnName("TAG")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(20)
                 .IsRequired();
 
             builder
                 .Property(x => x.SerialNumber)
                 .HasColumnName("SerialNumber")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(50)
                 .IsRequired();
 
             builder
                 .Property(x => x.Description)
                 .HasColumnName("Description")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(255)
                 .IsRequired();
 

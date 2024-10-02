@@ -26,5 +26,7 @@ namespace StockPro.Domain.Models
         public Local? Local { get; set; }
 
         public ICollection<ServiceRequest>? ServiceRequests { get; set; }
+
+        public ICollection<ServiceOrder>? ServiceOrders { get; set; }
     }
 }

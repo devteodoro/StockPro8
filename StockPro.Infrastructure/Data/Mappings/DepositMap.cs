@@ -24,7 +24,7 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder.Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
@@ -35,13 +35,13 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Code)
                 .HasColumnName("Code")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(20);
 
             builder
                 .Property(x => x.Description)
                 .HasColumnName("Description")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(500);
 
             builder
@@ -53,19 +53,19 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.State)
                 .HasColumnName("State")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.City)
                 .HasColumnName("City")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.Address)
                 .HasColumnName("Address")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(500);
 
             builder

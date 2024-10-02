@@ -33,6 +33,8 @@ namespace StockPro.Domain.Models
         //dados do cliente que possui o equipamento e precisa de manutenção
         public Client? Client { get; set; }
 
+        public string? ClientNotRegistered { get; set; }
+
         //descrição do problema 
         public string? Description { get; set; }
 
@@ -65,5 +67,8 @@ namespace StockPro.Domain.Models
 
         //Objeto nota de serviço que gerou essa ordem (Um ordem pode ser criada sem uma solicitação de serviço)
         public ServiceRequest? ServiceRequest { get; set; }
+
+        public ICollection<ServiceOrderTechnical>? ServiceOrderTechnicals { get; set; }
+
     }
 }

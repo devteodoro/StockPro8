@@ -26,7 +26,7 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
@@ -38,44 +38,44 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.CNPJ)
                 .IsRequired()
                 .HasColumnName("CNPJ")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(18);
 
             builder
                 .Property(x => x.Email)
                 .IsRequired()
                 .HasColumnName("Email")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(150);
 
             builder
                 .Property(x => x.Site)
                 .HasColumnName("Site")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(150);
 
             builder
                 .Property(x => x.ZipCode)
                 .HasColumnName("ZipCode")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(10);
 
             builder
                 .Property(x => x.State)
                 .HasColumnName("State")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.City)
                 .HasColumnName("City")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.Address)
                 .HasColumnName("Address")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(500);
 
             builder
@@ -87,7 +87,7 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Complement)
                 .HasColumnName("complement")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder

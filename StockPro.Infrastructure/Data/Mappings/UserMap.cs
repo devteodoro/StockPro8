@@ -26,7 +26,7 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
@@ -38,21 +38,21 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Login)
                 .IsRequired()
                 .HasColumnName("Login")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.Email)
                 .IsRequired()
                 .HasColumnName("Email")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(160);
 
             builder
                 .Property(x => x.PasswordHash)
                 .IsRequired()
                 .HasColumnName("PasswordHash")
-                .HasColumnType("NVARCHAR")
+                .HasColumnType("VARCHAR")
                 .HasMaxLength(255);
 
             builder
