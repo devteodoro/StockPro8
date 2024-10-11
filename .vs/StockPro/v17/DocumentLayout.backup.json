@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\dev\\Projeto\\StockPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|d:\\dev\\projeto\\stockpro\\stockpro.application\\adapter\\baseadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|solutionrelative:stockpro.application\\adapter\\baseadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|d:\\dev\\projeto\\stockpro\\stockpro.domain\\interfaces\\ijobfunctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|solutionrelative:stockpro.domain\\interfaces\\ijobfunctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|d:\\dev\\projeto\\stockpro\\stockpro.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|solutionrelative:stockpro.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|d:\\dev\\projeto\\stockpro\\stockpro.application\\services\\baseadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|solutionrelative:stockpro.application\\services\\baseadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\stockprodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\stockprodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|d:\\dev\\projeto\\stockpro\\stockpro.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA0CFF3-9418-4B6C-8DDC-65D52BC0915A}|StockPro.Application\\StockPro.Application.csproj|solutionrelative:stockpro.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|d:\\dev\\projeto\\stockpro\\stockpro.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|solutionrelative:stockpro.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|d:\\dev\\projeto\\stockpro\\stockpro.domain\\models\\workhours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|solutionrelative:stockpro.domain\\models\\workhours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{865F7C8F-7B4C-4C51-B205-D229CD73D178}|StockPro\\StockPro.csproj|d:\\dev\\projeto\\stockpro\\stockpro\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865F7C8F-7B4C-4C51-B205-D229CD73D178}|StockPro\\StockPro.csproj|solutionrelative:stockpro\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,27 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JobRepository.cs",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Repositories\\JobRepository.cs",
-              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Repositories\\JobRepository.cs",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Repositories\\JobRepository.cs",
-              "RelativeToolTip": "StockPro.Infrastructure\\Repositories\\JobRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Title": "BaseAdapter.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Adapter\\BaseAdapter.cs",
+              "RelativeDocumentMoniker": "StockPro.Application\\Adapter\\BaseAdapter.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Adapter\\BaseAdapter.cs",
+              "RelativeToolTip": "StockPro.Application\\Adapter\\BaseAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:38:34.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IJobFunctionRepository.cs",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Interfaces\\IJobFunctionRepository.cs",
-              "RelativeDocumentMoniker": "StockPro.Domain\\Interfaces\\IJobFunctionRepository.cs",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Interfaces\\IJobFunctionRepository.cs",
-              "RelativeToolTip": "StockPro.Domain\\Interfaces\\IJobFunctionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:37:19.369Z",
+              "WhenOpened": "2024-10-11T01:00:09.501Z",
               "EditorCaption": ""
             },
             {
@@ -72,96 +55,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StockProDataContext.cs",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\StockProDataContext.cs",
-              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\StockProDataContext.cs",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\StockProDataContext.cs",
-              "RelativeToolTip": "StockPro.Infrastructure\\Data\\StockProDataContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBEAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BaseAdapter.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Services\\BaseAdapter.cs",
+              "RelativeDocumentMoniker": "StockPro.Application\\Services\\BaseAdapter.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Services\\BaseAdapter.cs",
+              "RelativeToolTip": "StockPro.Application\\Services\\BaseAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T12:22:41.473Z",
+              "WhenOpened": "2024-10-11T00:53:24.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "StockPro.Application\\Services\\ClientService.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Services\\ClientService.cs",
+              "RelativeToolTip": "StockPro.Application\\Services\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T00:15:25.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "StockPro.Application\\Interfaces\\IClientService.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "StockPro.Application\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T00:15:14.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Interfaces\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "StockPro.Domain\\Interfaces\\IClientRepository.cs",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Interfaces\\IClientRepository.cs",
-              "RelativeToolTip": "StockPro.Domain\\Interfaces\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "StockPro\\Controllers\\ClientController.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "StockPro\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:37:34.429Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "4192be96-5d3a-4c62-89ee-e188750dc2d6",
-        "Display": 0,
-        "X": 393,
-        "Y": 106,
-        "Width": 982,
-        "Height": 706,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorkHours.cs",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Models\\WorkHours.cs",
-              "RelativeDocumentMoniker": "StockPro.Domain\\Models\\WorkHours.cs",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\Models\\WorkHours.cs",
-              "RelativeToolTip": "StockPro.Domain\\Models\\WorkHours.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T20:20:19.143Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "f5680acf-1d63-40f6-8233-74fae9630bfd",
-        "Display": 0,
-        "X": 65,
-        "Y": 81,
-        "Width": 982,
-        "Height": 706,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Repositories\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Repositories\\ClientRepository.cs",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Repositories\\ClientRepository.cs",
-              "RelativeToolTip": "StockPro.Infrastructure\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:34:01.664Z",
+              "WhenOpened": "2024-10-11T00:13:18.886Z",
               "EditorCaption": ""
             }
           ]
