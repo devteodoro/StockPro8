@@ -13,6 +13,6 @@ namespace StockPro.Application.Interfaces
 
         Task<ClientDTO> UpdateClientAsync(ClientDTO Id);
 
-        Task<ClientDTO> DeleteClientAsync(int Id);
+        Task DeleteClientAsync(int Id);
     }
 }

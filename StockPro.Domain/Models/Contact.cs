@@ -11,6 +11,24 @@ namespace StockPro.Domain.Models
 
         public int ClientId { get; set; }
 
-        public Client Client { get; set; } = new();
+        public Client Client { get; set; }
+
+        public Contact() { }
+
+        public Contact(string name, string email, string phone)
+        {
+            Name = name;
+            Email = email;
+            Phone = phone;
+        }
+
+        public Contact(string name, string email, string phone, int clientId, Client client)
+        {
+            Name = name;
+            Email = email;
+            Phone = phone;
+            ClientId = clientId;
+            Client = client;
+        }
     }
 }

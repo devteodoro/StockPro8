@@ -1,0 +1,62 @@
+﻿@model StockPro.ViewModels.Client.CreateClientViewModel
+
+@{
+    ViewData["Title"] = "Adicionar cliente";
+}
+<div class="card">
+    <div class="card-body p-4">
+        <h5 class="mb-4">Cliente</h5>
+        <form asp-action="Create" class="row g-3" id="formulario">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-md-12">
+                        <label asp-for="Name" class="form-label"></label>
+                        <div class="position-relative input-icon">
+                            <input asp-for="Name" class="form-control" placeholder="Nome" />
+                            <span class="position-absolute top-50 translate-middle-y"><i class='bx bx-user'></i></span>
+                        </div>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="col-md-12">
+                        <label asp-for="FantasyName" class="form-label"></label>
+                        <div class="position-relative input-icon">
+                            <input asp-for="FantasyName" class="form-control" placeholder="Nome" />
+                            <span class="position-absolute top-50 translate-middle-y"><i class='bx bx-user'></i></span>
+                        </div>
+                        <span asp-validation-for="FantasyName" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="col-md-12">
+                        <label asp-for="CNPJ" class="form-label"></label>
+                        <div class="position-relative input-icon">
+                            <input asp-for="CNPJ" class="form-control" placeholder="CNPJ" />
+                            <span class="position-absolute top-50 translate-middle-y"><i class='bx bxs-user-detail'></i></span>
+                        </div>
+                        <span asp-validation-for="CNPJ" class="text-danger"></span>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+            <br />
+            <div class="col-md-12">
+                <div class="d-md-flex justify-content-end d-grid align-items-center gap-3">
+                    <button type="submit" class="btn btn-primary px-4">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script type="text/javascript">
+
+    </script>
+}

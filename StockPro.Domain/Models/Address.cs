@@ -20,5 +20,18 @@ namespace StockPro.Domain.Models
         public int ClientId { get; set; }
 
         public Client Client { get; set; } = new();
+
+        public Address() { }
+
+        public Address(string zipCode, string? country, string? state, string? city, string? street, string? number, string? complement)
+        {
+            ZipCode = zipCode;
+            Country = country;
+            State = state;
+            City = city;
+            Street = street;
+            Number = number;
+            Complement = complement;
+        }
     }
 }

@@ -1,0 +1,123 @@
+﻿@model IEnumerable<StockPro.ViewModels.Client.ClientViewModel>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="card">
+    <div style="display: flex;margin: 1rem;justify-content: flex-end;">
+        <a asp-action="Create" asp-controller="Client" class="btn btn-primary px-5">Adicionar</a>
+    </div>
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table id="TableClient" class="table table-striped table-bordered table-responsive">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Name)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FantasyName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CNPJ)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FantasyName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CNPJ)
+                            </td>
+                            <td>
+                                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-primary px-3">Editar</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger px-3">Excluir</a>
+@*                                 <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-danger px-3" onclick="checkDependencies(@item.Id)">Excluir</button> *@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <!-- Modal -->
+    <div class="modal fade" id="modalDelete" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Atenção!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="resetModal()"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="resetModal()">Close</button>
+                    <a href="" id="btnDelete" class="btn btn-danger px-3">Confirmar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var table = $('#TableClient').DataTable({
+                lengthChange: false,
+                buttons: ['excel', 'pdf', 'print']
+            });
+
+            table.buttons().container()
+                .appendTo('#TableClient_wrapper .col-md-6:eq(0)');
+        });
+
+        function checkDependencies(id) {
+
+            $.post("Company/GetDependencies",
+                {
+                    id: id
+                }, function (value) {
+
+                    if(value != null && value != ""){
+                        $("#modalDelete .modal-body").append("<p>Essa empresa não possui nenhuma dependência! Deseja continuar?</p>");
+
+                        var result = JSON.parse(value);
+
+                        if (result.Errors.length > 0) {
+                            $("#modalDelete .modal-body").empty();
+
+                            for (let i = 0; i < result.Errors.length; i++) {
+                                $("#modalDelete .modal-body").append("<p>" + result.Errors[i] + "</p>")
+                            }
+                        }
+
+                        $("#modalDelete #btnDelete").attr("href", "Company/Delete/" + id);
+                        $("#modalDelete").modal("show");
+                    }
+                });
+        }
+
+        function resetModal () {
+            $("#modalDelete").modal("hide");
+            $("#modalDelete #btnDelete").attr("href", "");
+            $("#modalDelete .modal-body").empty();
+            $("#modalDelete .modal-body").append("<p> Essa empresa não possui nenhuma dependência! Deseja continuar ?</p>");
+        }
+    </script>
+
+}

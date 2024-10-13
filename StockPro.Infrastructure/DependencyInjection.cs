@@ -1,8 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using StockPro.Application.Interfaces;
+using StockPro.Application.Services;
 using StockPro.Domain.Interfaces;
 using StockPro.Infrastructure.Data;
+using StockPro.Infrastructure.Repositories;
 
 
 namespace StockPro.Infrastructure
@@ -20,6 +23,12 @@ namespace StockPro.Infrastructure
                     options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"),
                         b => b.MigrationsAssembly(typeof(StockProDataContext).Assembly.FullName));
                 });
+
+            services
+                .AddScoped<IClientService, ClientService>();
+
+            services
+                .AddScoped<IClientRepository, ClientRepository>();
 
             //services
             //    .AddScoped<ITokenService, TokenService>();
