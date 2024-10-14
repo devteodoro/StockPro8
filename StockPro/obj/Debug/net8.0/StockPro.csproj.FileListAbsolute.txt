@@ -43,3 +43,9 @@ D:\dev\Projeto\StockPro\StockPro\obj\Debug\net8.0\refint\StockPro.dll
 D:\dev\Projeto\StockPro\StockPro\obj\Debug\net8.0\StockPro.pdb
 D:\dev\Projeto\StockPro\StockPro\obj\Debug\net8.0\StockPro.genruntimeconfig.cache
 D:\dev\Projeto\StockPro\StockPro\obj\Debug\net8.0\ref\StockPro.dll
+D:\dev\Projeto\StockPro\StockPro\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\dev\Projeto\StockPro\StockPro\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\dev\Projeto\StockPro\StockPro\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\dev\Projeto\StockPro\StockPro\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\dev\Projeto\StockPro\StockPro\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\dev\Projeto\StockPro\StockPro\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

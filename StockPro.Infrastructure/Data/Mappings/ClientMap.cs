@@ -31,19 +31,16 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.FantasyName)
                 .HasColumnName("FantasyName")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.CNPJ)
                 .HasColumnName("CNPJ")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(14);
 
             //RELACIONAMENTOS

@@ -14,29 +14,54 @@ namespace StockPro.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<List<ServiceRequest>> GetAllAsync() => await _dbContext.ServiceRequests.ToListAsync();
-
-        public async Task<ServiceRequest> GetByIdAsync(int id) => await _dbContext.ServiceRequests.FirstOrDefaultAsync(x => x.Id == id);
-
-        public async Task<ServiceRequest> CreateAsync(ServiceRequest serviceRequest)
+        public Task<ServiceRequest> CreateAsync(ServiceRequest serviceRequest)
         {
-            await _dbContext.ServiceRequests.AddAsync(serviceRequest);
-            await _dbContext.SaveChangesAsync();
-            return serviceRequest;
+            throw new NotImplementedException();
         }
 
-        public async Task<ServiceRequest> DeleteAsync(ServiceRequest serviceRequest)
+        public Task<ServiceRequest> DeleteAsync(ServiceRequest serviceRequest)
         {
-            _dbContext.ServiceRequests.Remove(serviceRequest);
-            await _dbContext.SaveChangesAsync();
-            return serviceRequest;
+            throw new NotImplementedException();
         }
 
-        public async Task<ServiceRequest> UpdateAsync(ServiceRequest serviceRequest)
+        public Task<List<ServiceRequest>> GetAllAsync()
         {
-            _dbContext.ServiceRequests.Update(serviceRequest);
-            await _dbContext.SaveChangesAsync();
-            return serviceRequest;
+            throw new NotImplementedException();
         }
+
+        public Task<ServiceRequest> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceRequest> UpdateAsync(ServiceRequest serviceRequest)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public async Task<List<ServiceRequest>> GetAllAsync() => await _dbContext.ServiceRequests.ToListAsync();
+
+        //public async Task<ServiceRequest> GetByIdAsync(int id) => await _dbContext.ServiceRequests.FirstOrDefaultAsync(x => x.Id == id);
+
+        //public async Task<ServiceRequest> CreateAsync(ServiceRequest serviceRequest)
+        //{
+        //    await _dbContext.ServiceRequests.AddAsync(serviceRequest);
+        //    await _dbContext.SaveChangesAsync();
+        //    return serviceRequest;
+        //}
+
+        //public async Task<ServiceRequest> DeleteAsync(ServiceRequest serviceRequest)
+        //{
+        //    _dbContext.ServiceRequests.Remove(serviceRequest);
+        //    await _dbContext.SaveChangesAsync();
+        //    return serviceRequest;
+        //}
+
+        //public async Task<ServiceRequest> UpdateAsync(ServiceRequest serviceRequest)
+        //{
+        //    _dbContext.ServiceRequests.Update(serviceRequest);
+        //    await _dbContext.SaveChangesAsync();
+        //    return serviceRequest;
+        //}
     }
 }

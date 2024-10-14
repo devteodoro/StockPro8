@@ -34,21 +34,18 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.TAG)
                 .IsRequired()
                 .HasColumnName("TAG")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(15);
 
             builder
                 .Property(x => x.Description)
                 .IsRequired(false)
                 .HasColumnName("Description")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(255);
 
             builder
@@ -56,8 +53,7 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .IsRequired()
                 .HasConversion(
                     v => (int)v,
-                    v => (StatusAssets)v
-                );
+                    v => (StatusAssets)v);
 
             //RELACIONAMENTOS
             builder

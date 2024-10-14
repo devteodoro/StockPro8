@@ -31,22 +31,18 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.Description)
                 .IsRequired(false)
                 .HasColumnName("Description")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.HourlyRate)
                 .IsRequired(false)
-                .HasColumnName("HourlyRate")
-                .HasColumnType("decimal(18,2)")
-                .HasMaxLength(15);
+                .HasColumnName("HourlyRate");
 
             //RELACIONAMENTOS
             builder

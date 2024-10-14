@@ -46,21 +46,18 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.LocalNotRegistered)
                 .HasColumnName("LocalNotRegistered")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(255)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.EquipmentNotRegistered)
                 .HasColumnName("EquipmentNotRegistered")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(255)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Description)
                 .HasColumnName("Description")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500)
                 .IsRequired();
 
@@ -69,16 +66,14 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .IsRequired()
                 .HasConversion(
                    v => (int)v,
-                   v => (Criticality)v
-               );
+                   v => (Criticality)v);
 
             builder
                 .Property(x => x.Status)
                 .IsRequired()
                 .HasConversion(
                    v => (int)v,
-                   v => (StatusServiceRequest)v
-               );
+                   v => (StatusServiceRequest)v);
 
             //RELACIONAMENTOS
             builder

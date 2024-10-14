@@ -32,7 +32,6 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(p => p.CodeServiceOrder)
                 .IsRequired()
                 .HasColumnName("CodeServiceOrder")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
@@ -43,28 +42,24 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.LocalNotRegistered)
                 .HasColumnName("LocalNotRegistered")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.EquipmentNotRegistered)
                 .HasColumnName("EquipmentNotRegistered")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.ClientNotRegistered)
                 .HasColumnName("ClientNotRegistered")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Description)
                 .HasColumnName("Description")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500)
                 .IsRequired();
 
@@ -73,8 +68,7 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .IsRequired()
                 .HasConversion(
                    v => (int)v,
-                   v => (StatusServiceOrder)v
-               );
+                   v => (StatusServiceOrder)v);
 
             builder
                 .Property(p => p.EstimatedStartDate)
@@ -101,31 +95,26 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .IsRequired()
                 .HasConversion(
                    v => (int)v,
-                   v => (Criticality)v
-               );
+                   v => (Criticality)v);
 
             builder
                 .Property(p => p.EstimatedValue)
                 .IsRequired(false)
-                .HasColumnName("EstimatedValue")
-                .HasColumnType("double precision");
+                .HasColumnName("EstimatedValue");
 
             builder
                 .Property(x => x.Comments)
                 .HasColumnName("Comments")
-                .HasColumnType("VARCHAR")
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Comments)
                 .HasColumnName("Comments")
-                .HasColumnType("VARCHAR")
                 .IsRequired(false);
 
             builder
                 .Property(x => x.ClientFeedback)
                 .HasColumnName("ClientFeedback")
-                .HasColumnType("VARCHAR")
                 .IsRequired(false);
 
             //RELACIONAMENTOS

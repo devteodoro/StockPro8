@@ -14,29 +14,54 @@ namespace StockPro.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<List<Local>> GetAllAsync() => await _dbContext.Locals.ToListAsync();
-
-        public async Task<Local> GetByIdAsync(int id) => await _dbContext.Locals.Include(x => x.Equipments).FirstOrDefaultAsync(x => x.Id == id);
-
-        public async Task<Local> CreateAsync(Local local)
+        public Task<Local> CreateAsync(Local local)
         {
-            await _dbContext.Locals.AddAsync(local);
-            await _dbContext.SaveChangesAsync();
-            return local;
+            throw new NotImplementedException();
         }
 
-        public async Task<Local> UpdateAsync(Local local)
+        public Task<Local> DeleteAsync(Local local)
         {
-            _dbContext.Locals.Update(local);
-            await _dbContext.SaveChangesAsync();
-            return local;
+            throw new NotImplementedException();
         }
 
-        public async Task<Local> DeleteAsync(Local local)
+        public Task<List<Local>> GetAllAsync()
         {
-            _dbContext.Locals.Remove(local);
-            await _dbContext.SaveChangesAsync();
-            return local;
+            throw new NotImplementedException();
         }
+
+        public Task<Local> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Local> UpdateAsync(Local local)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public async Task<List<Local>> GetAllAsync() => await _dbContext.Locals.ToListAsync();
+
+        //public async Task<Local> GetByIdAsync(int id) => await _dbContext.Locals.Include(x => x.Equipments).FirstOrDefaultAsync(x => x.Id == id);
+
+        //public async Task<Local> CreateAsync(Local local)
+        //{
+        //    await _dbContext.Locals.AddAsync(local);
+        //    await _dbContext.SaveChangesAsync();
+        //    return local;
+        //}
+
+        //public async Task<Local> UpdateAsync(Local local)
+        //{
+        //    _dbContext.Locals.Update(local);
+        //    await _dbContext.SaveChangesAsync();
+        //    return local;
+        //}
+
+        //public async Task<Local> DeleteAsync(Local local)
+        //{
+        //    _dbContext.Locals.Remove(local);
+        //    await _dbContext.SaveChangesAsync();
+        //    return local;
+        //}
     }
 }

@@ -15,29 +15,54 @@ namespace StockPro.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<List<EquipmentModel>> GetAllAsync() => await _dbContext.EquipmentModels.ToListAsync();
-
-        public async Task<EquipmentModel> GetByIdAsync(int id) => await _dbContext.EquipmentModels.FirstOrDefaultAsync(x => x.Id == id);
-
-        public async Task<EquipmentModel> CreateAsync(EquipmentModel equipmentModel)
+        public Task<EquipmentModel> CreateAsync(EquipmentModel equipmentModel)
         {
-            await _dbContext.EquipmentModels.AddAsync(equipmentModel);
-            await _dbContext.SaveChangesAsync();
-            return equipmentModel;
+            throw new NotImplementedException();
         }
 
-        public async Task<EquipmentModel> UpdateAsync(EquipmentModel equipmentModel)
+        public Task<EquipmentModel> DeleteAsync(EquipmentModel equipmentModel)
         {
-            _dbContext.EquipmentModels.Update(equipmentModel);
-            await _dbContext.SaveChangesAsync();
-            return equipmentModel;
+            throw new NotImplementedException();
         }
 
-        public async Task<EquipmentModel> DeleteAsync(EquipmentModel equipmentModel)
+        public Task<List<EquipmentModel>> GetAllAsync()
         {
-            _dbContext.EquipmentModels.Remove(equipmentModel);
-            await _dbContext.SaveChangesAsync();
-            return equipmentModel;
+            throw new NotImplementedException();
         }
+
+        public Task<EquipmentModel> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<EquipmentModel> UpdateAsync(EquipmentModel equipmentModel)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public async Task<List<EquipmentModel>> GetAllAsync() => await _dbContext.EquipmentModels.ToListAsync();
+
+        //public async Task<EquipmentModel> GetByIdAsync(int id) => await _dbContext.EquipmentModels.FirstOrDefaultAsync(x => x.Id == id);
+
+        //public async Task<EquipmentModel> CreateAsync(EquipmentModel equipmentModel)
+        //{
+        //    await _dbContext.EquipmentModels.AddAsync(equipmentModel);
+        //    await _dbContext.SaveChangesAsync();
+        //    return equipmentModel;
+        //}
+
+        //public async Task<EquipmentModel> UpdateAsync(EquipmentModel equipmentModel)
+        //{
+        //    _dbContext.EquipmentModels.Update(equipmentModel);
+        //    await _dbContext.SaveChangesAsync();
+        //    return equipmentModel;
+        //}
+
+        //public async Task<EquipmentModel> DeleteAsync(EquipmentModel equipmentModel)
+        //{
+        //    _dbContext.EquipmentModels.Remove(equipmentModel);
+        //    await _dbContext.SaveChangesAsync();
+        //    return equipmentModel;
+        //}
     }
 }

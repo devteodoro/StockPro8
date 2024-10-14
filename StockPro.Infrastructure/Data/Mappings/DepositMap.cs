@@ -35,49 +35,41 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Code)
                 .HasColumnName("Code")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(20);
 
             builder
                 .Property(x => x.Description)
                 .HasColumnName("Description")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500);
 
             builder
                 .Property(x => x.ZipCode)
                 .HasColumnName("ZipCode")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(14);
 
             builder
                 .Property(x => x.State)
                 .HasColumnName("State")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.City)
                 .HasColumnName("City")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.Address)
                 .HasColumnName("Address")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500);
 
             builder
                 .Property(x => x.Number)
                 .HasColumnName("Number")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(10);
 
             builder
                 .Property(x => x.Complement)
                 .HasColumnName("Complement")
-                .HasColumnType("NVARCHAR")
                 .HasMaxLength(100);
 
             //RELACIONAMENTOS

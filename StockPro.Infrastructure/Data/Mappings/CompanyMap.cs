@@ -26,7 +26,6 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.Name)
                 .IsRequired()
                 .HasColumnName("Name")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
@@ -38,56 +37,47 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .Property(x => x.CNPJ)
                 .IsRequired()
                 .HasColumnName("CNPJ")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(18);
 
             builder
                 .Property(x => x.Email)
                 .IsRequired()
                 .HasColumnName("Email")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(150);
 
             builder
                 .Property(x => x.Site)
                 .HasColumnName("Site")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(150);
 
             builder
                 .Property(x => x.ZipCode)
                 .HasColumnName("ZipCode")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(10);
 
             builder
                 .Property(x => x.State)
                 .HasColumnName("State")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.City)
                 .HasColumnName("City")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.Address)
                 .HasColumnName("Address")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(500);
 
             builder
                 .Property(x => x.Number)
                 .HasColumnName("Number")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(10);
 
             builder
                 .Property(x => x.Complement)
                 .HasColumnName("complement")
-                .HasColumnType("VARCHAR")
                 .HasMaxLength(100);
 
             builder
