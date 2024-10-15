@@ -24,41 +24,33 @@ namespace StockPro.Infrastructure.Data.Mappings
             // Propriedades
             builder
                 .Property(p => p.CreatedDate)
-                .IsRequired()
-                .HasColumnType("timestamp without time zone");
+                .HasColumnType("timestamp without time zone").IsRequired();
 
             builder
                 .Property(x => x.ZipCode)
-                .HasColumnName("ZipCode")
                 .HasMaxLength(9);
 
             builder
                 .Property(x => x.Country)
-                .HasColumnName("State")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.State)
-                .HasColumnName("State")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.City)
-                .HasColumnName("City")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.Street)
-                .HasColumnName("Street")
                 .HasMaxLength(255);
 
             builder
-                .Property(x => x.Number)
-                .HasColumnName("Number");
+                .Property(x => x.Number);
 
             builder
                 .Property(x => x.Complement)
-                .HasColumnName("Complement")
                 .HasMaxLength(255);
 
             //RELACIONAMENTOS

@@ -33,19 +33,16 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Name)
                 .IsRequired()
-                .HasColumnName("Name")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.TAG)
                 .IsRequired()
-                .HasColumnName("TAG")
                 .HasMaxLength(15);
 
             builder
                 .Property(x => x.Description)
                 .IsRequired(false)
-                .HasColumnName("Description")
                 .HasMaxLength(255);
 
             builder

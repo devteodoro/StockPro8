@@ -10,7 +10,7 @@ namespace StockPro.Infrastructure.Data.Mappings
         {
             // Tabela
             builder
-                .ToTable("Client");
+                .ToTable("EquipmentModel");
 
             // Chave Primária
             builder
@@ -30,64 +30,53 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Name)
                 .IsRequired()
-                .HasColumnName("Name")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.Description)
                 .IsRequired()
-                .HasColumnName("Description")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.Brand)
-                .HasColumnName("Brand")
                 .HasMaxLength(100)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.EquipmentType)
-                .HasColumnName("EquipmentType")
                 .HasMaxLength(100)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Weight)
-                .HasColumnName("Weight")
                 .IsRequired(false);
 
             builder
                 .Property(x => x.OperatingVoltage)
-                .HasColumnName("OperatingVoltage")
                 .HasMaxLength(10)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.OperatingFrequency)
-                .HasColumnName("OperatingFrequency")
                 .HasMaxLength(10)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Material)
-                .HasColumnName("Material")
                 .HasMaxLength(100)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.EstimatedLifespan)
-                .HasColumnName("EstimatedLifespan")
                 .IsRequired(false);
 
             builder
                 .Property(x => x.RecommendedMaintenanceInterval)
-                .HasColumnName("RecommendedMaintenanceInterval")
                 .HasMaxLength(100)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.TechnicalDocumentation)
-                .HasColumnName("TechnicalDocumentation")
                 .HasMaxLength(500)
                 .IsRequired(false);
 

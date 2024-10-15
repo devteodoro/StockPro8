@@ -36,25 +36,21 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Login)
                 .IsRequired()
-                .HasColumnName("Login")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.Email)
                 .IsRequired()
-                .HasColumnName("Email")
                 .HasMaxLength(160);
 
             builder
                 .Property(x => x.PasswordHash)
                 .IsRequired()
-                .HasColumnName("PasswordHash")
                 .HasMaxLength(255);
 
             builder
                 .Property(x => x.Profile)
-                .IsRequired()
-                .HasColumnName("Profile");
+                .IsRequired();
 
             //RELACIONAMENTOS
             builder

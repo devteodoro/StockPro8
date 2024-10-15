@@ -35,29 +35,24 @@ namespace StockPro.Infrastructure.Data.Mappings
 
             builder
                 .Property(x => x.RegisteredAsset)
-                .IsRequired()
-                .HasColumnName("RegisteredAsset");
+                .IsRequired();
 
             builder
                 .Property(x => x.InactiveAsset)
-                .IsRequired()
-                .HasColumnName("InactiveAsset");
+                .IsRequired();
 
             builder
                 .Property(x => x.LocalNotRegistered)
-                .HasColumnName("LocalNotRegistered")
                 .HasMaxLength(255)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.EquipmentNotRegistered)
-                .HasColumnName("EquipmentNotRegistered")
                 .HasMaxLength(255)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Description)
-                .HasColumnName("Description")
                 .HasMaxLength(500)
                 .IsRequired();
 

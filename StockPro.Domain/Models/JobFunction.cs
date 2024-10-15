@@ -6,9 +6,9 @@
 
         public string? Description { get; set; }
 
-        public decimal HourlyRate { get; set; }
+        public double? HourlyRate { get; set; }
 
-        public int TechnicalId { get; set; }
+        public int? TechnicalId { get; set; }
 
         public Technical? Technical { get; set; }
 

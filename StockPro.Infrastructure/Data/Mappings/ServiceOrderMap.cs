@@ -11,7 +11,7 @@ namespace StockPro.Infrastructure.Data.Mappings
         {
             // Tabela
             builder
-                .ToTable("ServiceOrders");
+                .ToTable("ServiceOrder");
 
             // Chave Primária
             builder
@@ -31,35 +31,29 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(p => p.CodeServiceOrder)
                 .IsRequired()
-                .HasColumnName("CodeServiceOrder")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.RegisteredAsset)
-                .IsRequired()
-                .HasColumnName("RegisteredAsset");
+                .IsRequired();
 
             builder
                 .Property(x => x.LocalNotRegistered)
-                .HasColumnName("LocalNotRegistered")
                 .HasMaxLength(500)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.EquipmentNotRegistered)
-                .HasColumnName("EquipmentNotRegistered")
                 .HasMaxLength(500)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.ClientNotRegistered)
-                .HasColumnName("ClientNotRegistered")
                 .HasMaxLength(500)
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Description)
-                .HasColumnName("Description")
                 .HasMaxLength(500)
                 .IsRequired();
 
@@ -99,22 +93,14 @@ namespace StockPro.Infrastructure.Data.Mappings
 
             builder
                 .Property(p => p.EstimatedValue)
-                .IsRequired(false)
-                .HasColumnName("EstimatedValue");
-
-            builder
-                .Property(x => x.Comments)
-                .HasColumnName("Comments")
                 .IsRequired(false);
 
             builder
                 .Property(x => x.Comments)
-                .HasColumnName("Comments")
                 .IsRequired(false);
 
             builder
                 .Property(x => x.ClientFeedback)
-                .HasColumnName("ClientFeedback")
                 .IsRequired(false);
 
             //RELACIONAMENTOS

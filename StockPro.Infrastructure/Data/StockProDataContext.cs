@@ -32,12 +32,12 @@ namespace StockPro.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.ApplyConfiguration(new ClientMap());
-            //modelBuilder.ApplyConfiguration(new AddressMap());
-            //modelBuilder.ApplyConfiguration(new ContactMap());
+            modelBuilder.ApplyConfiguration(new ClientMap());
+            modelBuilder.ApplyConfiguration(new AddressMap());
+            modelBuilder.ApplyConfiguration(new ContactMap());
 
             base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(StockProDataContext).Assembly);
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(StockProDataContext).Assembly);
         }
     }
 }

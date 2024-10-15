@@ -24,65 +24,54 @@ namespace StockPro.Infrastructure.Data.Mappings
             // Propriedades
             builder
                 .Property(x => x.Name)
-                .IsRequired()
-                .HasColumnName("Name")
-                .HasMaxLength(100);
+                .HasMaxLength(100)
+                .IsRequired();
 
             builder
-                .Property(p => p.CreatedDate)
-                .IsRequired()
-                .HasColumnType("timestamp without time zone");
+                .Property(p => p.CreatedDate)           
+                .HasColumnType("timestamp without time zone")
+                .IsRequired();
 
             builder
                 .Property(x => x.CNPJ)
-                .IsRequired()
-                .HasColumnName("CNPJ")
-                .HasMaxLength(18);
+                .HasMaxLength(18)
+                .IsRequired();
 
             builder
                 .Property(x => x.Email)
-                .IsRequired()
-                .HasColumnName("Email")
-                .HasMaxLength(150);
+                .HasMaxLength(150)
+                .IsRequired();
 
             builder
                 .Property(x => x.Site)
-                .HasColumnName("Site")
                 .HasMaxLength(150);
 
             builder
                 .Property(x => x.ZipCode)
-                .HasColumnName("ZipCode")
                 .HasMaxLength(10);
 
             builder
                 .Property(x => x.State)
-                .HasColumnName("State")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.City)
-                .HasColumnName("City")
                 .HasMaxLength(50);
 
             builder
                 .Property(x => x.Address)
-                .HasColumnName("Address")
                 .HasMaxLength(500);
 
             builder
                 .Property(x => x.Number)
-                .HasColumnName("Number")
                 .HasMaxLength(10);
 
             builder
                 .Property(x => x.Complement)
-                .HasColumnName("complement")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.ImageBase64)
-                .HasColumnName("ImageBase64")
                 .HasColumnType("LONGBLOB");
 
             //Relacionamentos

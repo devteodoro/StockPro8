@@ -12,7 +12,7 @@ namespace StockPro.Infrastructure.Data.Mappings
         {
             // Tabela
             builder
-                .ToTable("User");
+                .ToTable("Equipment");
 
             // Chave Primária
             builder
@@ -27,24 +27,20 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Name)
                 .IsRequired()
-                .HasColumnName("Name")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.TAG)
-                .HasColumnName("TAG")
                 .HasMaxLength(20)
                 .IsRequired();
 
             builder
                 .Property(x => x.SerialNumber)
-                .HasColumnName("SerialNumber")
                 .HasMaxLength(50)
                 .IsRequired();
 
             builder
                 .Property(x => x.Description)
-                .HasColumnName("Description")
                 .HasMaxLength(255)
                 .IsRequired();
 

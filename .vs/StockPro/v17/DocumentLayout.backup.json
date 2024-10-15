@@ -7,8 +7,72 @@
       "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\stockprodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|d:\\dev\\projeto\\stockpro\\stockpro.domain\\stockpro.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{26A44A64-7080-43BC-B84A-920550743B09}|StockPro.Domain\\StockPro.Domain.csproj|solutionrelative:stockpro.domain\\stockpro.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865F7C8F-7B4C-4C51-B205-D229CD73D178}|StockPro\\StockPro.csproj|d:\\dev\\projeto\\stockpro\\stockpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{865F7C8F-7B4C-4C51-B205-D229CD73D178}|StockPro\\StockPro.csproj|solutionrelative:stockpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\workhoursmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\workhoursmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\technicalmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\technicalmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\serviceordertechnicalmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\serviceordertechnicalmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\servicerequestmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\servicerequestmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\serviceordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\serviceordermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\localmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\localmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\jobfunctionmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\jobfunctionmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\equipmentmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\equipmentmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\equipmentmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\equipmentmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\depositmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\depositmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\contactmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\contactmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\companymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\companymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\clientmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\clientmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|d:\\dev\\projeto\\stockpro\\stockpro.infrastructure\\data\\mappings\\addressmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC713D16-C4FF-49B9-8FC8-11A3761C4ED1}|StockPro.Infrastructure\\StockPro.Infrastructure.csproj|solutionrelative:stockpro.infrastructure\\data\\mappings\\addressmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +92,217 @@
               "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\StockProDataContext.cs",
               "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\StockProDataContext.cs",
               "RelativeToolTip": "StockPro.Infrastructure\\Data\\StockProDataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T23:10:44.792Z",
+              "WhenOpened": "2024-10-15T00:27:30.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro\\appsettings.json",
+              "RelativeDocumentMoniker": "StockPro\\appsettings.json",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro\\appsettings.json",
+              "RelativeToolTip": "StockPro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T00:27:16.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StockPro.Domain",
-              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj",
-              "RelativeDocumentMoniker": "StockPro.Domain\\StockPro.Domain.csproj",
-              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj",
-              "RelativeToolTip": "StockPro.Domain\\StockPro.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-13T22:43:34.746Z",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:26:35.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkHoursMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\WorkHoursMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\WorkHoursMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\WorkHoursMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\WorkHoursMap.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:26:05.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\UserMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\UserMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\UserMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\UserMap.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:25:49.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TechnicalMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\TechnicalMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\TechnicalMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\TechnicalMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\TechnicalMap.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:25:32.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceRequestMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceRequestMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\ServiceRequestMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceRequestMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\ServiceRequestMap.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwEQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:25:06.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceOrderTechnicalMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderTechnicalMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderTechnicalMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderTechnicalMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderTechnicalMap.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:25:03.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceOrderMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\ServiceOrderMap.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwGMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:22:16.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LocalMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\LocalMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\LocalMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\LocalMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\LocalMap.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:22:00.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobFunctionMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\JobFunctionMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\JobFunctionMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\JobFunctionMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\JobFunctionMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:21:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EquipmentModelMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\EquipmentModelMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\EquipmentModelMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\EquipmentModelMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\EquipmentModelMap.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwE4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:20:36.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EquipmentMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\EquipmentMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\EquipmentMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\EquipmentMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\EquipmentMap.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:20:16.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepositMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\DepositMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\DepositMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\DepositMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\DepositMap.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwD4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:19:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContactMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ContactMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\ContactMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ContactMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\ContactMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:18:59.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompanyMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\CompanyMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\CompanyMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\CompanyMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\CompanyMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:18:25.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClientMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ClientMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\ClientMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\ClientMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\ClientMap.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:17:58.416Z",
               "EditorCaption": ""
             },
             {
@@ -53,6 +312,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddressMap.cs",
+              "DocumentMoniker": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\AddressMap.cs",
+              "RelativeDocumentMoniker": "StockPro.Infrastructure\\Data\\Mappings\\AddressMap.cs",
+              "ToolTip": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\Data\\Mappings\\AddressMap.cs",
+              "RelativeToolTip": "StockPro.Infrastructure\\Data\\Mappings\\AddressMap.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:17:13.216Z",
+              "EditorCaption": ""
             }
           ]
         }

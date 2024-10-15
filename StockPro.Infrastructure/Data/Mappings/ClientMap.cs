@@ -24,23 +24,20 @@ namespace StockPro.Infrastructure.Data.Mappings
             // Propriedades
             builder
                 .Property(p => p.CreatedDate)
-                .IsRequired()
-                .HasColumnType("timestamp without time zone");
+                .HasColumnType("timestamp without time zone")
+                .IsRequired();
 
             builder
                 .Property(x => x.Name)
-                .IsRequired()
-                .HasColumnName("Name")
-                .HasMaxLength(100);
+                .HasMaxLength(100)
+                .IsRequired();
 
             builder
                 .Property(x => x.FantasyName)
-                .HasColumnName("FantasyName")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.CNPJ)
-                .HasColumnName("CNPJ")
                 .HasMaxLength(14);
 
             //RELACIONAMENTOS

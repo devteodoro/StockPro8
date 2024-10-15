@@ -31,25 +31,21 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .Property(x => x.Name)
                 .IsRequired()
-                .HasColumnName("Name")
                 .HasMaxLength(100);
 
             builder
                 .Property(x => x.CPF)
                 .IsRequired()
-                .HasColumnName("CPF")
                 .HasMaxLength(14);
 
             builder
                 .Property(x => x.PhoneNumber)
                 .IsRequired(false)
-                .HasColumnName("PhoneNumber")
                 .HasMaxLength(15);
 
             builder
                 .Property(x => x.Email)
                 .IsRequired(false)
-                .HasColumnName("Email")
                 .HasMaxLength(160);
 
             //RELACIONAMENTOS
