@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockPro.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c7577ef0ff1a508f5af2ee573f423b8555f54b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cf60de307195809ae21f07500216a30a484893f")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockPro.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockPro.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
