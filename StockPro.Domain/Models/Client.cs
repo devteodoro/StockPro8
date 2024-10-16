@@ -10,15 +10,26 @@ namespace StockPro.Domain.Models
 
         public string CNPJ { get; set; } = string.Empty;
 
-        public ICollection<Address> Addresses { get; set; } = new List<Address>();
+        public ICollection<Address>? Addresses { get; set; }
 
-        public ICollection<Contact> Contacts { get; set; } = new List<Contact>();
+        public ICollection<Contact>? Contacts { get; set; }
 
-        public ICollection<ServiceRequest> ServiceRequests { get; set; } = new List<ServiceRequest>();
+        public ICollection<ServiceRequest>? ServiceRequests { get; set; }
 
-        public ICollection<ServiceOrder> ServiceOrders { get; set; } = new List<ServiceOrder>();
+        public ICollection<ServiceOrder>? ServiceOrders { get; set; }
 
         public Client() { }
+
+        public Client(string name, string? fantasyName, string cnpj)
+        {
+            Name = name;
+            FantasyName = fantasyName;
+            CNPJ = cnpj;
+            Addresses = new List<Address>();
+            Contacts = new List<Contact>();
+            ServiceRequests = new List<ServiceRequest>();
+            ServiceOrders = new List<ServiceOrder>();
+        }
 
         public Client(string name, string? fantasyName, string cNPJ, ICollection<Address> addresses, ICollection<Contact> contacts, ICollection<ServiceRequest> serviceRequests, ICollection<ServiceOrder> serviceOrders)
         {

@@ -35,9 +35,11 @@ namespace StockPro.Infrastructure.Data
             modelBuilder.ApplyConfiguration(new ClientMap());
             modelBuilder.ApplyConfiguration(new AddressMap());
             modelBuilder.ApplyConfiguration(new ContactMap());
+            modelBuilder.ApplyConfiguration(new ServiceOrderMap());
+            modelBuilder.ApplyConfiguration(new ServiceRequestMap());
+            modelBuilder.ApplyConfiguration(new ServiceOrderTechnicalMap());
 
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(StockProDataContext).Assembly);
         }
     }
 }

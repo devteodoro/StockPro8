@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Filipe Teodoro\\.nuget\\packages\\": {}
+    "C:\\Users\\filipe.vieira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj",
       "projectName": "StockPro.Domain",
-      "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj",
-      "packagesPath": "C:\\Users\\Filipe Teodoro\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\obj\\",
+      "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj",
+      "packagesPath": "C:\\Users\\filipe.vieira\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\StockPro8\\StockPro.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Filipe Teodoro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\filipe.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

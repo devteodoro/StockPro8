@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj": {}
+    "C:\\Projetos\\StockPro8\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\StockPro.Application.csproj": {
+    "C:\\Projetos\\StockPro8\\StockPro.Application\\StockPro.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\StockPro.Application.csproj",
+        "projectUniqueName": "C:\\Projetos\\StockPro8\\StockPro.Application\\StockPro.Application.csproj",
         "projectName": "StockPro.Application",
-        "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\StockPro.Application.csproj",
-        "packagesPath": "C:\\Users\\Filipe Teodoro\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\obj\\",
+        "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Application\\StockPro.Application.csproj",
+        "packagesPath": "C:\\Users\\filipe.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\StockPro8\\StockPro.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Filipe Teodoro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filipe.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj": {
-                "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj"
+              "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj": {
+    "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj",
         "projectName": "StockPro.Domain",
-        "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj",
-        "packagesPath": "C:\\Users\\Filipe Teodoro\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\obj\\",
+        "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj",
+        "packagesPath": "C:\\Users\\filipe.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\StockPro8\\StockPro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Filipe Teodoro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filipe.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj": {
+    "C:\\Projetos\\StockPro8\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projetos\\StockPro8\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj",
         "projectName": "StockPro.Infrastructure",
-        "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Filipe Teodoro\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Infrastructure\\obj\\",
+        "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Infrastructure\\StockPro.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\filipe.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\StockPro8\\StockPro.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Filipe Teodoro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filipe.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,11 +155,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\StockPro.Application.csproj": {
-                "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Application\\StockPro.Application.csproj"
+              "C:\\Projetos\\StockPro8\\StockPro.Application\\StockPro.Application.csproj": {
+                "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Application\\StockPro.Application.csproj"
               },
-              "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj": {
-                "projectPath": "D:\\dev\\Projeto\\StockPro\\StockPro.Domain\\StockPro.Domain.csproj"
+              "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\StockPro8\\StockPro.Domain\\StockPro.Domain.csproj"
               }
             }
           }
@@ -216,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

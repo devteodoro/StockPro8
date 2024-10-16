@@ -128,7 +128,8 @@ namespace StockPro.Infrastructure.Data.Mappings
             builder
                 .HasOne(sr => sr.ServiceRequest)
                 .WithOne(r => r.ServiceOrder)
-                .OnDelete(DeleteBehavior.NoAction)
+                .HasForeignKey<ServiceOrder>(sr => sr.ServiceRequestId)
+                .OnDelete(DeleteBehavior.Cascade)
                 .IsRequired(false);
 
             builder

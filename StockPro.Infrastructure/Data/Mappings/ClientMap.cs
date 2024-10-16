@@ -54,6 +54,20 @@ namespace StockPro.Infrastructure.Data.Mappings
                 .HasForeignKey(a => a.ClientId)
                 .OnDelete(DeleteBehavior.Cascade)
                 .IsRequired(false);
+
+            builder
+                .HasMany(sr => sr.ServiceRequests)
+                .WithOne(a => a.Client)
+                .HasForeignKey(sr => sr.ClientId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .IsRequired(false);
+
+            builder
+                .HasMany(so => so.ServiceOrders)
+                .WithOne(a => a.Client)
+                .HasForeignKey(so => so.ClientId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .IsRequired(false);
         }
     }
 }

@@ -10,3 +10,15 @@ D:\dev\Projeto\StockPro\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.dll
 D:\dev\Projeto\StockPro\StockPro.Domain\obj\Debug\net8.0\refint\StockPro.Domain.dll
 D:\dev\Projeto\StockPro\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.pdb
 D:\dev\Projeto\StockPro\StockPro.Domain\obj\Debug\net8.0\ref\StockPro.Domain.dll
+C:\Projetos\StockPro8\StockPro.Domain\bin\Debug\net8.0\StockPro.Domain.deps.json
+C:\Projetos\StockPro8\StockPro.Domain\bin\Debug\net8.0\StockPro.Domain.dll
+C:\Projetos\StockPro8\StockPro.Domain\bin\Debug\net8.0\StockPro.Domain.pdb
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.AssemblyInfoInputs.cache
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.AssemblyInfo.cs
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.sourcelink.json
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.dll
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\refint\StockPro.Domain.dll
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\StockPro.Domain.pdb
+C:\Projetos\StockPro8\StockPro.Domain\obj\Debug\net8.0\ref\StockPro.Domain.dll

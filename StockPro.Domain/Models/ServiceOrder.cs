@@ -66,9 +66,10 @@ namespace StockPro.Domain.Models
         public string? ClientFeedback { get; set; }
 
         //Objeto nota de serviço que gerou essa ordem (Um ordem pode ser criada sem uma solicitação de serviço)
+        public int? ServiceRequestId { get; set; }
+
         public ServiceRequest? ServiceRequest { get; set; }
 
         public ICollection<ServiceOrderTechnical>? ServiceOrderTechnicals { get; set; }
-
     }
 }
